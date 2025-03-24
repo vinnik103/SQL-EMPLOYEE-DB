@@ -241,4 +241,8 @@ select sum(creditLimit)as sum_creditlimit from customers;
 
 select count(creditLimit)as total_creditlimit from customers;
 
+select min(creditLimit) as total_creditlimit from customers;
+
+select max(creditLimit) as total_creditlimit from customers;
+
   
