@@ -245,4 +245,14 @@ select min(creditLimit) as total_creditlimit from customers;
 
 select max(creditLimit) as total_creditlimit from customers;
 
+-- update 
+  -- update is used to modify existing records 
+  
+   update employee set emp_fname ="pratik" where id ="103";
+   
+   -- delete 
+   -- delete is used to delete existing records 
+   
+   delete from employee where id ="105";
+
   
