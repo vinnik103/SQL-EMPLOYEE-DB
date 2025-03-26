@@ -257,5 +257,5 @@ select max(creditLimit) as total_creditlimit from customers;
 
  -- rename 
  -- rename is used to rename the table name .
- rename table patient to patient_data;
+    rename table patient to patient_data;
   
