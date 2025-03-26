@@ -255,4 +255,7 @@ select max(creditLimit) as total_creditlimit from customers;
    
    delete from employee where id ="105";
 
+ -- rename 
+ -- rename is used to rename the table name .
+ rename table patient to patient_data;
   
