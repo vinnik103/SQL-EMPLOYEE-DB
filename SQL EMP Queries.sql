@@ -124,15 +124,23 @@ select *from student;
 select *from employee 
 where age >17 AND age <21;
 
+select *From emp_sal where DEPT ="HR" AND DESI ="ASSOCIATE";
+
+
 -- OR OPERATOR 
 
 select *from employee 
 where emp_address ="pune" OR emp_address="dharashiv";
 
+select *From emp_sal where DEPT ="ops" or DESI ="HR";
+
+
 -- NOT OPERATOR
 
 select *from employee
 where not emp_address ="pune" AND not emp_address="satara";
+
+ select *From emp_sal where not DEPT ="HR";
 
 
 select *from employee
@@ -164,6 +172,7 @@ select *from employee where emp_fname like "%a%";
 
 select *From employee where age between 20 and 23;
 
+select *From emp_sal where SALARY between 400000 AND 500000;
 
 select *From employee where age not between 20 and 23;
 
@@ -208,6 +217,8 @@ select *from employee order by emp_fname desc;
 select distinct city from customers;
 
 select distinct state from customers;
+
+  select distinct DESI from emp_sal;
 
 -- limit and offset 
 -- if you want to the number of results that are returned. you can simply use the limit command with several rows to limit by 
