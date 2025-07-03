@@ -230,7 +230,7 @@ select *from employee where emp_fname like "v%" limit 2;
 
 -- offset : you can also specify on offset from where to start returning data.
 
- select *from employee limit 5 offset 2;
+ select *from employee limit 5 offset 3;
 
 select * from employee limit 5 offset 4;
 
